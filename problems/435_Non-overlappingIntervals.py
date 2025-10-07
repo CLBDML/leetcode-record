@@ -5,6 +5,7 @@ class Solution:
         count = 0
 
         for interval in intervals:
+            
             if interval[0] >= end:
                 end = interval[1]
             else:
